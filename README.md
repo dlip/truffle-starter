@@ -1,7 +1,10 @@
-# Typescript Starter
+# Truffle Starter
 
 ```
 npm install -g yarn
 yarn install
-yarn watch
+yarn truffle compile
+yarn truffle migrate
+docker-compose up -d
+yarn truffle test
 ```
